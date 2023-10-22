@@ -1,13 +1,13 @@
 const Discord = require('discord.js')
 exports.run = function(client, message, args) {
 let davet = new Discord.MessageEmbed()
-.setTitle("parsher Ekonomi | Yapımcım")
+.setTitle("RTE Ekonomi | Yapımcım")
 .setDescription(`
-**Botu Kodlayan** | **\` parsher \`**
+**Botu Kodlayan** | **\` ventesila.jpg \`**
 
-**Botun Sahibi** | <@689447667465453599>  
+**Botun Sahibi** | <@821357304100159579>  
 
-[Destek olan parsher'a Teşekkür Ederiz!](https://discord.gg/FATqHBJ97W) )
+[Destek olan ventesila.jpg'ye Teşekkür Ederiz!](https://discord.gg/RndHfyrCC5) )
 `)
 
   return message.channel.send(davet)

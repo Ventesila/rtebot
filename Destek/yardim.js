@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 let z = `a!`
 exports.run = function(client, message, args) {
 let yardim = new Discord.MessageEmbed()
-.setTitle("Parsher Ekonomi | Komut Listesi")
+.setTitle("RTE Ekonomi | Komut Listesi")
 .setColor("RANDOM")
 .addField("__💰  Ekonomi__",`
 **\`${z}yardım ekonomi\`** - *Ekonomi komutları hakkında bilgi edinin!*
@@ -52,7 +52,7 @@ let destek = new Discord.MessageEmbed()
 **\`${z}destek\` - __Botun destek sunucusunun linkini atar.__**
 **\`${z}yapımcım\` - __Botun yapımcısını/geliştiricisini atar.__**
 **\`${z}oy-ver\` - __Botun oy verme linkini atar.__**
-[Destek Sunucumuza](https://discord.gg/codegive) katılmayı unutmayın
+[Destek Sunucumuza](https://discord.gg/RndHfyrCC5) katılmayı unutmayın
 `)
   if(!args[0]) return message.channel.send(yardim)
   
