@@ -36,7 +36,7 @@ exports.run = async (client, message, args) => {
 
         let awnser = result[Math.floor(Math.random() * result.length)];
      const cümleler = [
-       "Balık oltadan kaçtı","Hırsızın biri balığını çaldı","Martının biri gelip balığını kaptı"]
+       "Kedinin Karnını doyurdun!","Tayyip balığına Vergi kesti!","Chp'nin adamarı balığını çaldı!"]
      var cümle = cümleler[Math.floor(Math.random() * cümleler.length)]
      if (awnser === "LOOSELOOSE") {
  var kaybettin = 300         
