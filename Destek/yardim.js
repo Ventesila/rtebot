@@ -1,5 +1,5 @@
 const Discord = require('discord.js')
-let z = `a!`
+let z = `!`
 exports.run = function(client, message, args) {
 let yardim = new Discord.MessageEmbed()
 .setTitle("RTE Ekonomi | Komut Listesi")
@@ -7,7 +7,7 @@ let yardim = new Discord.MessageEmbed()
 .addField("__💰  Ekonomi__",`
 **\`${z}yardım ekonomi\`** - *Ekonomi komutları hakkında bilgi edinin!*
 
-\`günlük\`, \`çalış\`, \`soygun\`, \`yatır\`, \`çek\`, \`gönder\`, \`para\`
+\`${z}günlük\`, \`${z}çalış\`, \`${z}soygun\`, \`${z}yatır\`, \`${z}çek\`, \`${z}gönder\`, \`${z}para\`
 `)
 .addField("__🎲  Oyunlar__",`
 **\`${z}yardım oyunlar\`** - *Eğlence/Bahis oyunları oynayarak para kazanın!*
@@ -15,11 +15,11 @@ let yardim = new Discord.MessageEmbed()
 \`balık-tut\`, \`bahis\`, \`slot-machine\`
 `)
 .addField("__💼  Destek__",`
-**\`${z}yardım destek\`** - *Bize destek olabiliceğiniz komutlar!*
+**\`$${z}yardım destek\`** - *Bize destek olabiliceğiniz komutlar!*
 
-\`davet\`, \`yapımcım\`, \`destek\`,\`yardım\`
+\`${z}davet\`, \`${z}yapımcım\`, \`${z}destek\`,\`${z}yardım\`
 
-Ücretsiz Kodlar Sunduğumuz [__Discord Sunucumuza__](https://discord.gg/ew3dpTu4Z5) katılmayı unutmayın!
+Ücretsiz Kodlar Sunduğumuz [__Discord Sunucumuza__](https://discord.gg/7eQ2bnZbvZ) katılmayı unutmayın!
 `)
 
 let ekonomi = new Discord.MessageEmbed()
