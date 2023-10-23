@@ -12,10 +12,10 @@ let yardim = new Discord.MessageEmbed()
 .addField("__🎲  Oyunlar__",`
 **\`${z}yardım oyunlar\`** - *Eğlence/Bahis oyunları oynayarak para kazanın!*
 
-\`balık-tut\`, \`bahis\`, \`slot-machine\`
+\`${z}balık-tut\`, \`${z}bahis\`, \`${z}slot-machine\`
 `)
 .addField("__💼  Destek__",`
-**\`$${z}yardım destek\`** - *Bize destek olabiliceğiniz komutlar!*
+**\`${z}yardım destek\`** - *Bize destek olabiliceğiniz komutlar!*
 
 \`${z}davet\`, \`${z}yapımcım\`, \`${z}destek\`,\`${z}yardım\`
 

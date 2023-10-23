@@ -21,5 +21,5 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'para',
+  name: 'cüzdan',
 };
