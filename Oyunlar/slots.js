@@ -18,7 +18,7 @@ if(miktar < 100) return message.channel.send(new Discord.MessageEmbed()
 .setColor("RED")
 .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
 .setDescription(`🤔 Girdiğin miktar geçerli bir sayı değil !?`))
- let kazandin = miktar*3     
+ let kazandin = miktar*1    
   let slots = ["🍓","🍎","🍍","🍌","🍒","🍇","🍍","🍇","🍇","🍍","🍎","🍎","🍎","🍓","🍓",];
   
 
