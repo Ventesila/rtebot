@@ -19,7 +19,7 @@ if(miktar < 100) return message.channel.send(new Discord.MessageEmbed()
 .setAuthor(message.author.tag, message.author.avatarURL({dynamic: true}))
 .setDescription(`🤔 Girdiğin miktar geçerli bir sayı değil !?`))
  let kazandin = miktar*3   
-  let slots = ["🍓","🍎","🍍","🍌","🍒","🍇","🍍","🍇","🍇","🍍","🍎","🍎","🍎","🍓","🍓",];
+let slots = ["🍓","🍓","🍓","🍓","🍓","🍓","🍓","🍓","🍓","🍓","🍓","🍓","🍓","🍓","🍓",];
   
 
   let result1 = Math.floor((Math.random() * slots.length));
