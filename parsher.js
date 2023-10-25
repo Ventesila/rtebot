@@ -13,7 +13,7 @@ client.login(process.env.TOKEN)
 
 client.on('ready', async () => {
   
- client.user.setActivity(`RTE Ekonomi | Yutup`, { type:'WATCHING' })
+ client.user.setActivity(`RTE Ekonomi | Yutup `, { type:'WATCHING' })
   
   console.log(`Komutlar Yüklendi # Forch Developement`)
 });
